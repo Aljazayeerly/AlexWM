@@ -40,6 +40,7 @@ public class TestGit extends HttpServlet {
             out.println("<h1>Servlet TestGit at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
+            out.println("hello from owner");
         }
     }
 
